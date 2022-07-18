@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Meet Mia</title>
+
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link href="fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+			nav.nav {
+				position: relative;
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), hsl(346, 100%, 85%));
+			}
+			.nav-holder {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: center;
+				margin-left: -1.25rem;
+				margin-right: -1.25rem;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+			}
+
+			.nav-logo-wrapper {
+				flex: 0 0 auto;
+				width: auto;
+				max-width: 100%;
+				margin-right: auto;
+				padding-left: 1.25rem;
+				padding-right: 1.25rem;
+			}
+			a.nav-logo {
+				display: block;
+				width: 6rem;
+				max-width: 6rem;
+			}
+
+			.nav-list-wrapper {
+				display: none;
+				width: 100%;
+				padding-left: 1.25rem;
+				padding-right: 1.25rem;
+			}
+			.nav-list-wrapper.open {
+				display: block;
+			}
+			@media (min-width: 992px) {
+				.nav-list-wrapper {
+					display: block;
+					margin-left: auto;
+					width: auto;
+					padding-left: 1.25rem;
+					padding-right: 1.25rem;
+				}
+			}
+			ul.nav-list {
+				display: flex;
+				flex-wrap: wrap;
+				list-style-type: none;
+			}
+			li.nav-list-item {
+				display: block;
+				flex: 0 0 100%;
+				margin-bottom: 1rem;
+				width: 100%;
+			}
+			li.nav-list-item:first-of-type {
+				margin-top: 1rem;
+			}
+			li.nav-list-item:last-of-type {
+				margin-bottom: 0;
+			}
+
+			@media (min-width: 992px) {
+				li.nav-list-item {
+					flex: 0 0 auto;
+					margin-bottom: 0;
+					width: auto;
+				}
+				li.nav-list-item:not(:first-of-type) {
+					padding-left: 3rem;
+				}
+				li.nav-list-item:first-of-type {
+					margin-top: 0;
+				}
+			}
+      .dropbtn {
+        color: black;
+        border: none;
+        cursor: pointer;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 200px;
+        min-width: 160px;
+        box-shadow: 3px 8px 16px 3px rgba(0,0,0,0.2);
+        z-index: 1;
+        background-color: hsl(346, 100%, 96%);
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 14px;
+        font-size: 18px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {
+        text-decoration: underline 3px #fbccd1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown:hover .dropbtn {
+        background-color: hsl(346, 100%, 96%);
+      }
+		</style>
+  </head>
+
+
+  <body class="page">
+    <nav class="nav">
+      <div class="container">
+				<div class="nav-holder">
+					<div class="nav-logo-wrapper">
+						<a class="nav-logo" href="index.html">
+							<img src="img/logo.jpg" alt="Site Logo">
+						</a>
+					</div>
+
+					<div class="nav-toggler-wrapper">
+						<button class="nav-toggler" aria-label="Open/Close Navigation">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+
+					<div class="nav-list-wrapper">
+						<ul class="nav-list">
+              <li class="nav-list-item dropdown dropbtn">
+                <a href="proizvodi.html">Proizvodi</a>
+                <div class="dropdown-content">
+                  <a href="#">Torte i kolači</a>
+                  <a href="#">Brunch</a>
+                  <a href="#">Posebna ponuda</a>
+                  <a href="torta-po-izboru.html">Torta po izboru</a>
+                </div>
+              </li>
+							<li class="nav-list-item">
+								<a href="o-nama.html">O nama</a>
+							</li>
+							<li class="nav-list-item">
+								<a href="#page-3.html">Vijesti</a>
+							</li>
+							<li class="nav-list-item">
+								<a href="#page-4.html">Moj profil</a>
+							</li>
+							<li class="nav-list-item">
+								<a href="#page-5.html">Košarica</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+    </nav>
+
+    <main class="main-proizvodi">
+    <div class="container" style="margin-top: 4rem;">
+        <div class="row">
+            <div class="col-lg-3">
+              <ul class="nav-list-aside">
+                <li class="nav-list-item-aside">
+                  <a href="#">Torte i kolači</a>
+                </li>
+                <li class="nav-list-item-aside">
+                  <a href="#">Brunch</a>
+                </li>
+                <li class="nav-list-item-aside">
+                  <a href="#">Posebna ponuda</a>
+                </li>
+                <li class="nav-list-item-aside">
+                  <a href="torta-po-izboru.html">Torta po izboru</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-4" id="product-1">
+                <a href="stranica-proizvoda.html">
+                <img src="img/avokado_pir.jpg" /><br />
+                </a>
+                <a href="stranica-proizvoda.html">
+                <h4>Avokado na piru</h4>
+                </a>
+                <p>Cijena: 35kn</p>
+            <button class="quantitybtn">+</button>
+            <button class="quantitybtn">-</button>
+                <input type="number" class="form-field__input" value="1" min="1" /></br></br>
+                <button href="#" data-id="1" data-quantity="1" class="add-to-cart ajax product-1 btn">Dodaj u košaricu</button>
+            </div>
+            
+            <div class="col-xs-12 col-md-6 col-lg-4" id="product-2">
+              <a href="stranica-proizvoda.html">
+                <img src="img/losos_bagel.jpg" /><br />
+              </a>
+              <a href="stranica-proizvoda.html">
+                <h4>Losos bagel</h4>
+              </a>
+                <p>Cijena: 30kn</p>
+            <button class="quantitybtn">+</button>
+            <button class="quantitybtn">-</button>
+                <input type="number" class="form-field__input" value="1" min="1" /></br></br>
+                <button href="#" data-id="2" data-quantity="1" class="add-to-cart ajax product-2 btn">Dodaj u košaricu</button>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 offset-lg-4 col-lg-4" id="product-1">
+            <a href="stranica-proizvoda.html">
+              <img src="img/queen_niki.jpg" /><br />
+            </a>
+            <a href="stranica-proizvoda.html">
+              <h4>Queen Niki</h4>
+            </a>
+              <p>Cijena: 24kn</p>
+          <button class="quantitybtn">+</button>
+          <button class="quantitybtn">-</button>
+              <input type="number" class="form-field__input" value="1" min="1" /></br></br>
+              <button href="#" data-id="1" data-quantity="1" class="add-to-cart ajax product-1 btn">Dodaj u košaricu</button>
+          </div>
+          
+          <div class="col-xs-12 col-md-6 col-lg-4" id="product-2">
+            <a href="stranica-proizvoda.html">
+              <img src="img/spring_cake.jpg" /><br />
+            </a>
+            <a href="stranica-proizvoda.html">
+              <h4>Spring Cake</h4>
+            </a>
+              <p>Cijena: 28kn</p>
+          <button class="quantitybtn">+</button>
+          <button class="quantitybtn">-</button>
+              <input type="number" class="form-field__input" value="1" min="1" /></br></br>
+              <button href="#" data-id="2" data-quantity="1" class="add-to-cart ajax product-2 btn">Dodaj u košaricu</button>
+          </div>
+      </div>
+        
+      </div>
+    </div>
+
+    </main>
+
+    <footer>
+      <div class="mainFooter">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-3">
+              <div class="footer-logo">
+                <img src="img/logo.jpg" alt="Site logo">
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-lg-3">
+              <p>Vlaška ulica 43, 10000 Zagreb, Hrvatska<br></p>
+              <p><i class="fas fa-phone"></i> 091 445 5122</p>
+              <p><i class="fas fa-envelope"></i> <a href="mailto:meetmia.cakes@gmail.com">meetmia.cakes@gmail.com</a></p>
+              <p><i class="fas fa-clock"></i> 09:00 - 22:00</p>
+            </div>
+              
+            <div class="col-xs-12 col-sm-5 offset-sm-1 col-lg-2 offset-lg-1">
+              <h4>Navigacija</h4>
+              <ul>
+                <li>
+                  <a href="proizvodi.html">Proizvodi</a>
+                </li>
+                <li>
+                  <a href="o-nama.html">O nama</a>
+                </li>
+                <li>
+                  <a href="#page-3.html">Vijesti</a>
+                </li>
+                <li>
+                  <a href="#page-4.html">Moj profil</a>
+                </li>
+                <li>
+                  <a href="#page-5.html">Uvjeti prodaje</a>
+                </li>
+              </ul>
+            </div>
+                
+            <div class="social col-xs-12 col-sm-6 col-lg-2 offset-lg-1">
+              <h4>Društvene mreže</h4>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/meetmia"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/meetmiacakes/?hl=en"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 copyright">
+              <p> © OWS Marta Martinjaš</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+			var navToggler = document.querySelector('button.nav-toggler'),
+				navList = document.querySelector('ul.nav-list');
+
+			navToggler.addEventListener('click', function() {
+				this.classList.toggle('open');
+				navList.parentElement.classList.toggle('open');
+			});
+
+
+            $(function() {
+            $(".quantitybtn").on("click", function() {
+            var $button = $(this);
+            var $parent = $button.parent(); 
+            var oldValue = $parent.find('.form-field__input').val();
+
+            if ($button.text() == "+") {
+                var newVal = parseFloat(oldValue) + 1;
+                } else {
+                // Don't allow decrementing below zero
+                if (oldValue > 1) {
+                    var newVal = parseFloat(oldValue) - 1;
+                    } else {
+                    newVal = 1;
+                }
+                }
+                $parent.find('a.add-to-cart').attr('data-quantity', newVal);
+                $parent.find('.form-field__input').val(newVal);
+            });
+            });
+	</script>
+  </body>
+
+
+</html>

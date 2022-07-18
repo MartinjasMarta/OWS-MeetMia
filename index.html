@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Meet Mia</title>
+
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link href="fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+			nav.nav {
+				position: relative;
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), hsl(346, 100%, 85%));
+			}
+			.nav-holder {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: center;
+				margin-left: -1.25rem;
+				margin-right: -1.25rem;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+			}
+
+			.nav-logo-wrapper {
+				flex: 0 0 auto;
+				width: auto;
+				max-width: 100%;
+				margin-right: auto;
+				padding-left: 1.25rem;
+				padding-right: 1.25rem;
+			}
+			a.nav-logo {
+				display: block;
+				width: 6rem;
+				max-width: 6rem;
+			}
+
+			.nav-list-wrapper {
+				display: none;
+				width: 100%;
+				padding-left: 1.25rem;
+				padding-right: 1.25rem;
+			}
+			.nav-list-wrapper.open {
+				display: block;
+			}
+			@media (min-width: 992px) {
+				.nav-list-wrapper {
+					display: block;
+					margin-left: auto;
+					width: auto;
+					padding-left: 1.25rem;
+					padding-right: 1.25rem;
+				}
+			}
+			ul.nav-list {
+				display: flex;
+				flex-wrap: wrap;
+				list-style-type: none;
+			}
+			li.nav-list-item {
+				display: block;
+				flex: 0 0 100%;
+				margin-bottom: 1rem;
+				width: 100%;
+			}
+			li.nav-list-item:first-of-type {
+				margin-top: 1rem;
+			}
+			li.nav-list-item:last-of-type {
+				margin-bottom: 0;
+			}
+
+			@media (min-width: 992px) {
+				li.nav-list-item {
+					flex: 0 0 auto;
+					margin-bottom: 0;
+					width: auto;
+				}
+				li.nav-list-item:not(:first-of-type) {
+					padding-left: 3rem;
+				}
+				li.nav-list-item:first-of-type {
+					margin-top: 0;
+				}
+			}
+      .dropbtn {
+        color: black;
+        border: none;
+        cursor: pointer;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 200px;
+        min-width: 160px;
+        box-shadow: 3px 8px 16px 3px rgba(0,0,0,0.2);
+        z-index: 1;
+        background-color: hsl(346, 100%, 96%);
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 14px;
+        font-size: 18px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {
+        text-decoration: underline 3px #fbccd1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown:hover .dropbtn {
+        background-color: hsl(346, 100%, 96%);
+      }
+		</style>
+  </head>
+
+
+  <body class="page">
+    <nav class="nav">
+      <div class="container">
+				<div class="nav-holder">
+					<div class="nav-logo-wrapper">
+						<a class="nav-logo" href="index.html">
+							<img src="img/logo.jpg" alt="Site Logo">
+						</a>
+					</div>
+
+					<div class="nav-toggler-wrapper">
+						<button class="nav-toggler" aria-label="Open/Close Navigation">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+
+					<div class="nav-list-wrapper">
+						<ul class="nav-list">
+              <li class="nav-list-item dropdown dropbtn">
+                <a href="proizvodi.html">Proizvodi</a>
+                <div class="dropdown-content">
+                  <a href="#">Torte i kolači</a>
+                  <a href="#">Brunch</a>
+                  <a href="#">Posebna ponuda</a>
+                  <a href="torta-po-izboru.html">Torta po izboru</a>
+                </div>
+              </li>
+							<li class="nav-list-item">
+								<a href="o-nama.html">O nama</a>
+							</li>
+							<li class="nav-list-item">
+								<a href="#page-3.html">Vijesti</a>
+							</li>
+							<li class="nav-list-item">
+								<a href="#page-4.html">Moj profil</a>
+							</li>
+							<li class="nav-list-item">
+								<a href="#page-5.html">Košarica</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+    </nav>
+
+    <div class="container-fluid intro">
+      <div class="row">
+        <div class="col-12">
+          <div class="intro-text-block">
+            <h1>MeetMia, brunch & cake bar</h1>
+            <p>Započni dan finim doručkom ili naruči omiljeni kolač!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+
+      <div class="container popular">
+        <div class="row">
+          <div class="col-12">
+            <h2>Najpopularniji proizvodi</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-3">
+            <a href="stranica-proizvoda.html">
+              <img src="img/spring_cake.jpg" alt="spring" style="width:100%;">
+            </a>
+              <p>Spring Cake</p>
+              <p>Cijena: 28kn</p>
+              <a href="stranica-proizvoda.html">
+              <button class="btn">Prikaži više</button>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-3">
+            <a href="stranica-proizvoda.html">
+            <img src="img/queen_niki.jpg" alt="queen" style="width:100%;">
+            </a>
+            <p>Queen Niki</p>
+            <p>Cijena: 24kn</p>
+            <a href="stranica-proizvoda.html">
+            <button class="btn">Prikaži više</button>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-3">
+            <a href="stranica-proizvoda.html">
+            <img src="img/losos_bagel.jpg" alt="losos" style="width:100%;">
+            </a>
+            <p>Losos bagel</p>
+            <p>Cijena: 30kn</p>
+            <a href="stranica-proizvoda.html">
+            <button class="btn">Prikaži više</button>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-3">
+            <a href="stranica-proizvoda.html">
+            <img src="img/avokado_pir.jpg" alt="sample" style="width:100%;">
+            </a>
+            <p>Avokado na piru</p>
+            <p>Cijena: 35kn</p>
+            <a href="stranica-proizvoda.html">
+            <button class="btn">Prikaži više</button>
+            </a>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+
+        <div class="container ponuda">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <a href="proizvodi.html">
+              <picture>
+                <img
+                sizes="(max-width: 600px) 100vw, 600px"
+                srcset="
+                img/torte-kolaci_vkyr0b_c_scale,w_200.jpg 200w,
+                img/torte-kolaci_vkyr0b_c_scale,w_545.jpg 545w,
+                img/torte-kolaci_vkyr0b_c_scale,w_600.jpg 600w"
+                src= url(img/torte-kolaci_vkyr0b_c_scale,w_600.jpg)
+                alt="Torte i kolači">
+                </picture>
+              </a>
+            </div>
+            <div class="col-xs-12 offset-md-1 col-md-5">
+              <h3>Torte i kolači</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="proizvodi.html"><button class="btn">Prikaži više</button></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-md-5">
+              <h3>Brunch</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="proizvodi.html"><button class="btn">Prikaži više</button></a>
+            </div>
+            <div class="col-xs-12 offset-md-1 col-md-6 order-first order-md-last">
+              <a href="proizvodi.html">
+              <picture>
+                <img
+                sizes="(max-width: 600px) 100vw, 600px"
+                srcset="
+                img/dorucak_tuzjdm_c_scale,w_200.jpg 200w,
+                img/dorucak_tuzjdm_c_scale,w_491.jpg 491w,
+                img/dorucak_tuzjdm_c_scale,w_600.jpg 600w"
+                src="img/dorucak_tuzjdm_c_scale,w_600.jpg"
+                alt="Brunch">
+                </picture>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <a href="proizvodi.html">
+              <picture>
+                <img
+                sizes="(max-width: 600px) 100vw, 600px"
+                srcset="
+                img/posebna-ponuda_rclv7k_c_scale,w_200.jpg 200w,
+                img/posebna-ponuda_rclv7k_c_scale,w_446.jpg 446w,
+                img/posebna-ponuda_rclv7k_c_scale,w_600.jpg 600w"
+                src="img/posebna-ponuda_rclv7k_c_scale,w_600.jpg"
+                alt="Posebna ponuda">
+                </picture>
+              </a>
+            </div>
+            <div class="col-xs-12 offset-md-1 col-md-5">
+              <h3>Posebna ponuda</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="proizvodi.html"><button class="btn">Prikaži više</button></a>
+            </div>
+          </div>
+          <hr>
+        </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Novosti</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-lg-4">
+            <picture>
+              <img
+              sizes="(max-width: 933px) 100vw, 933px"
+              srcset="
+              img/bozicni-kolaci_zdnvqz_c_scale,w_200.jpg 200w,
+              img/bozicni-kolaci_zdnvqz_c_scale,w_631.jpg 631w,
+              img/bozicni-kolaci_zdnvqz_c_scale,w_933.jpg 933w"
+              src="img/bozicni-kolaci_zdnvqz_c_scale,w_933.jpg"
+              alt="Božićni kolači">
+              </picture>
+            <h4>Božićni kolači</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button class="btn">Pročitaj više</button>
+          </div>
+          <div class="col-xs-12 col-lg-4">
+            <picture>
+              <img
+              sizes="(max-width: 800px) 100vw, 800px"
+              srcset="
+              img/hire_jeq9v1_c_scale,w_200.jpg 200w,
+              img/hire_jeq9v1_c_scale,w_800.jpg 800w"
+              src="img/hire_jeq9v1_c_scale,w_800.jpg"
+              alt="Zapošljavanje">
+              </picture>
+            <h4>MeetMia zapošljava!</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button class="btn">Pročitaj više</button>
+          </div>
+          <div class="col-xs-12 col-lg-4">
+            <picture>
+              <img
+              sizes="(max-width: 930px) 100vw, 930px"
+              srcset="
+              img/novi-kolac_wzacv3_c_scale,w_200.jpg 200w,
+              img/novi-kolac_wzacv3_c_scale,w_733.jpg 733w,
+              img/novi-kolac_wzacv3_c_scale,w_930.jpg 930w"
+              src="img/novi-kolac_wzacv3_c_scale,w_930.jpg"
+              alt="Novi kolač">
+              </picture>
+            <h4>Predstavljamo novi kolač - Eclaire</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button class="btn">Pročitaj više</button>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="mainFooter">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-3">
+              <div class="footer-logo">
+                <img src="img/logo.jpg" alt="Site logo">
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-lg-3">
+              <p>Vlaška ulica 43, 10000 Zagreb, Hrvatska<br></p>
+              <p><i class="fas fa-phone"></i> 091 445 5122</p>
+              <p><i class="fas fa-envelope"></i> <a href="mailto:meetmia.cakes@gmail.com">meetmia.cakes@gmail.com</a></p>
+              <p><i class="fas fa-clock"></i> 09:00 - 22:00</p>
+            </div>
+              
+            <div class="col-xs-12 col-sm-5 offset-sm-1 col-lg-2 offset-lg-1">
+              <h4>Navigacija</h4>
+              <ul>
+                <li>
+                  <a href="proizvodi.html">Proizvodi</a>
+                </li>
+                <li>
+                  <a href="o-nama.html">O nama</a>
+                </li>
+                <li>
+                  <a href="#page-3.html">Vijesti</a>
+                </li>
+                <li>
+                  <a href="#page-4.html">Moj profil</a>
+                </li>
+                <li>
+                  <a href="#page-5.html">Uvjeti prodaje</a>
+                </li>
+              </ul>
+            </div>
+                
+            <div class="social col-xs-12 col-sm-6 col-lg-2 offset-lg-1">
+              <h4>Društvene mreže</h4>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/meetmia"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/meetmiacakes/?hl=en"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 copyright">
+              <p> © OWS Marta Martinjaš</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+			var navToggler = document.querySelector('button.nav-toggler'),
+				navList = document.querySelector('ul.nav-list');
+
+			navToggler.addEventListener('click', function() {
+				this.classList.toggle('open');
+				navList.parentElement.classList.toggle('open');
+			});
+		</script>
+  </body>
+
+
+</html>
